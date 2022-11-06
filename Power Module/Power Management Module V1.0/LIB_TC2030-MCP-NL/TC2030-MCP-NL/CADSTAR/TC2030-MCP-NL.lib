@@ -1,0 +1,19 @@
+.TC2030-MCP-NL :1 ;TC2030-MCP-NL PCB Footprint (no legs)
+TC2030-MCP-NL
+*STM J
+*NGS
+*PLB 1="-MCLR/VPP" 2="VDD" 3="GND" 4="PGD (ICSPDAT)" 5="PGC (ICSPCLK)" 6="UNUSED/LVP"
+*MXP 9
+*DFN TC2030-MCP-NL
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (TC2030-MCP-NL)
+~!Mouser Part Number (579-TC2030-MCP-NL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/TC2030-MCP-NL?qs=vpV3rcoeaPNaPItFBtR60A%3D%3D)
+~!Arrow Part Number (TC2030-MCP-NL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tc2030-mcp-nl/microchip-technology?region=nac)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (http://ww1.microchip.com/downloads/en/DeviceDoc/TC2030-MCP-NL_PCB_Footprint_RevD.pdf)
+~!Height (-)
+TC2030-MCP-NL
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

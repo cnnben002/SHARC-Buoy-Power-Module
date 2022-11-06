@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TC2030_MCP_NL'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Microchip", "TC2030-MCP-NL" (!) = "", "TC2030-MCP-NL", "Other", "579-TC2030-MCP-NL", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/TC2030-MCP-NL?qs=vpV3rcoeaPNaPItFBtR60A%3D%3D", "TC2030-MCP-NL", "https://www.arrow.com/en/products/tc2030-mcp-nl/microchip-technology?region=nac", "", "", "TC2030-MCP-NL PCB Footprint (no legs)", "http://ww1.microchip.com/downloads/en/DeviceDoc/TC2030-MCP-NL_PCB_Footprint_RevD.pdf"
+END_PART
+
+END.

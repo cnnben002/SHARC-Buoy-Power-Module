@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=TC2030-MCP-NL
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.1
+Released=2017-12-12 21:00:21
+Downloaded=2022-09-27 15:38:27
+3D=N

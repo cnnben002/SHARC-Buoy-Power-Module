@@ -1,0 +1,119 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TC2030-MCP-NL"
+   (description "TC2030-MCP-NL PCB Footprint (no legs)")
+   (family "CON")
+   (package "TC2030-MCP-NL")
+   (attribute "Datasheet Link" "http://ww1.microchip.com/downloads/en/DeviceDoc/TC2030-MCP-NL_PCB_Footprint_RevD.pdf")
+   (attribute "Manufacturer_Name" "Microchip")
+   (attribute "Manufacturer_Part_Number" "TC2030-MCP-NL")
+   (attribute "Mouser Part Number" "579-TC2030-MCP-NL")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/TC2030-MCP-NL?qs=vpV3rcoeaPNaPItFBtR60A%3D%3D")
+   (attribute "Arrow Part Number" "TC2030-MCP-NL")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tc2030-mcp-nl/microchip-technology?region=nac")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "TC2030-MCP-NL")
+    (pin "-MCLR/VPP" 1 PS)
+    (pin "VDD" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "PGD_(ICSPDAT)" 4 PS)
+    (pin "PGC_(ICSPCLK)" 5 PS)
+    (pin "UNUSED/LVP" 6 PS)
+   )
+  )
+  (symbol "TC2030-MCP-NL"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1600 100) (pt 1600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TC2030-MCP-NL"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -1.36 -1.514) (pt -1.234 -1.514)
+     )
+    )
+   )
+   (leg 1 (pt -1.27 -0.635) (padstack 0))
+   (leg 2 (pt -1.27 0.635) (padstack 0))
+   (leg 3 (pt 0 -0.635) (padstack 0))
+   (leg 4 (pt 0 0.635) (padstack 0))
+   (leg 5 (pt 1.27 -0.635) (padstack 0))
+   (leg 6 (pt 1.27 0.635) (padstack 0))
+   (leg 7 (pt -2.54 0) (padstack 7))
+   (leg 8 (pt 2.54 1.016) (padstack 8))
+   (leg 9 (pt 2.54 -1.016) (padstack 9))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (round 0.889))
+   )
+   (padstack 7
+    (hole 1.0668)
+    (plated true)
+    (pad (layer TCOP) (round 1.55))
+    (pad (layer INNER) (round 1.55))
+    (pad (layer BCOP) (round 1.55))
+   )
+   (padstack 8
+    (hole 1.0668)
+    (plated true)
+    (pad (layer TCOP) (round 1.55))
+    (pad (layer INNER) (round 1.55))
+    (pad (layer BCOP) (round 1.55))
+   )
+   (padstack 9
+    (hole 1.0668)
+    (plated true)
+    (pad (layer TCOP) (round 1.55))
+    (pad (layer INNER) (round 1.55))
+    (pad (layer BCOP) (round 1.55))
+   )
+  )
+ )
+)

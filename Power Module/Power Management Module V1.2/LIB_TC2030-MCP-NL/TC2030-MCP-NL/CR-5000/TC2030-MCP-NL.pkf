@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TC2030-MCP-NL"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TC2030-MCP-NL")
+        (spec "default")
+    )
+)
